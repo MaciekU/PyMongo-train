@@ -21,6 +21,7 @@ else:
     print("Books already inserted.")
 
 
-db_operations.make_favorite_for_user(11, '0000000000001', db)
-db_operations.check_book_by_isbn('0000000000001', db)
+# OPERATIONS:
+db_operations.make_favorite_for_user(11, '0000000000002', db)
+db_operations.check_book_by_isbn('0000000000002', db)
 
